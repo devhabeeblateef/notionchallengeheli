@@ -13,5 +13,3 @@
 13. Used Array.Filter().map() to display data and search according to name of data and desription of data
 14. Passed a key arg in map to track index of cards. Used the same key to display date grouping 5x5.
 15. Commited to GitHub
-
-16. Peace.
