@@ -1,0 +1,11 @@
+type MockData {
+  date: String @fake(type: date)
+  item_name: String @fake(type: firstName)
+  item_description: String @fake(type: lorem, options: { loremSize: sentence })
+  imageURL: String
+    @fake(type: imageUrl, options: { imageKeywords: ["alienated"] })
+}
+
+type Query {
+  data: [MOCK)_Data]
+}
